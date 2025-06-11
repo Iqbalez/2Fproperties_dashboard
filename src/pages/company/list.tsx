@@ -81,7 +81,7 @@ export const CompanyList = ({ children }: React.PropsWithChildren) => {
       >
         <Table.Column<Company>
           dataIndex="name"
-          title="Company Title"
+          title="Clients name"
           defaultFilteredValue={getDefaultFilter('id', filters)}
           filterIcon={<SearchOutlined />}
           filterDropdown={(props) => (
